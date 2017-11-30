@@ -2,9 +2,27 @@
   font-size: 22px !important;
 }
 
+.title {
+  margin-top: 12%;
+  text-align: center;
+}
+
 .tabs {
   margin: 20px 0;
 }
+
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
+.anchor {
+  color: #ccc !important;
+}
 .anchor:hover, .tab:hover, .active {
-  color: rgb(50, 50, 50) !important;
+  color: #424242 !important;
+}
+
+.indicator {
+  display: none;
 }
