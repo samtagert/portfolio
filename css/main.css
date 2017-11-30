@@ -1,9 +1,10 @@
-#test0, #test00top {
-  text-align: center;
-  color: rgb(68, 68, 68);
-  font-size: 242px;
+.name {
+  font-size: 22px !important;
 }
 
-.nav {
-  height: 48px;
+.tabs {
+  margin: 20px 0;
+}
+.anchor:hover, .tab:hover, .active {
+  color: rgb(50, 50, 50) !important;
 }
