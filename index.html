@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link rel="stylesheet" href="css/main.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>  
@@ -14,56 +15,129 @@
 </head>
 <body>
   <div class="row">
-    <div class="navbar white">
-      <div class="col s12 z-depth-1">
-        <ul class="tabs">
-          <li class="tab col s1 offset-l3"><a class="anchor" href="#test0">Resume</a></li>
-          <li class="tab col s1"><a class="anchor" href="#test1">Work</a></li>
-          <li class="tab col s2"><a class="anchor name active" href="#test2">Sam Tagert</a></li>
-          <li class="tab col s1"><a class="anchor" href="#test3">Contact</a></li>
-          <li class="tab col s1"><a class="anchor" href="#test4">Other</a></li>
-          <div class="indicator grey darken-3"></div>
-        </ul>
-      </div>
+    <div class="col s12 z-depth-1 navbar white">
+      <ul class="tabs">
+        <li class="tab col s1 offset-l4"><a class="anchor" href="#test0">Work</a></li>
+        <li class="tab col s2"><a class="anchor name active" href="#test2">Sam Tagert</a></li>
+        <li class="tab col s1"><a class="anchor" href="#test1">Resume</a></li>
+        <div class="indicator grey darken-3"></div>
+      </ul>
     </div>
-  <main class="container">
+    <main>
+      <div class="container">              
       <div id="test0" class="col s12">
-        <h1 class="title">RESUME</h1>
-        <!-- resume -->
+        <h3 class="title">My Projects</h3>
+
+        <div class="col s12 project-card">
+          <div class="project-content">
+            <img class="project-pic z-depth-3" src="https://i.imgur.com/0tnuY3T.png">
+          </div>
+          <div class="project-content">
+            <h4 class="project-title">Game Discovery</h4>
+            <p class="project-summary">My fourth project was built using Javascript, React, Node, Express, MongoDB, Mongoose, and the IGDB API. It is a game search engine designed for lost gamers looking to discover their next game to play. This project was my first full-stack React app and took place during my twelfth week of WDI and was done in four days.</p>
+            <a href="https://game-discovery-app.herokuapp.com/">Deployed App</a>&nbsp;|&nbsp;<a href="https://github.com/samtagert/game-discovery">GitHub Repo</a>
+          </div>
+        </div>
+        <hr>
+        <div class="col s12 project-card">
+          <div class="project-content">
+            <img class="project-pic z-depth-3" src="https://i.imgur.com/z18pqTH.jpg">
+          </div>
+          <div class="project-content">
+            <h4 class="project-title">Don't Think, Just Eat</h4>              
+            <p class="project-summary">My third project was built using Javascript, Node, Express, MongoDB, Mongoose, and the Yelp API. You are able to put in a desired location and find a random restaurant within one mile. This project was a group project and was done alongside three others. We took the mob programming approach with one driver and three navigators. My designated role was Scrum Master, maintaining an organized workflow throughout the project.</p>
+            <a href="https://game-discovery-app.herokuapp.com/">Deployed App</a>&nbsp;|&nbsp;<a href="https://github.com/samtagert/game-discovery">GitHub Repo</a>
+          </div>
+        </div>
+        <hr>
+        <div class="col s12 project-card">
+          <div class="project-content">
+            <img class="project-pic z-depth-3" src="https://i.imgur.com/NzAldKp.png">
+          </div>
+          <div class="project-content">
+            <h4 class="project-title">WAR</h4>              
+            <p class="project-summary">My first project was using JavaScript, CSS, and HTML to create the card game, War, where two players simultaneously play a card, and the player with the higher value card takes both cards into their deck. This project took place during my third week of WDI and was done in four days.</p>
+            <a href="https://game-discovery-app.herokuapp.com/">Deployed App</a>&nbsp;|&nbsp;<a href="https://github.com/samtagert/game-discovery">GitHub Repo</a>
+          </div>
+        </div>
+        <hr>
+        <div class="col s12 project-card">
+          <div class="project-content">
+            <img class="project-pic z-depth-3" src="https://i.imgur.com/OSIlCVT.png">
+          </div>
+          <div class="project-content">
+            <h4 class="project-title">GL HF</h4>              
+            <p class="project-summary">The second project was built using Ruby on Rails to create a CRUD application revolving around reviews for video games. You are able to create a profile and submit reviews for specific games and rate them on a scale of 100. This project took place during my sixth week of WDI and was done in three days.</p>
+            <a href="https://game-discovery-app.herokuapp.com/">Deployed App</a>&nbsp;|&nbsp;<a href="https://github.com/samtagert/game-discovery">GitHub Repo</a>
+          </div>
+        </div>
+        <hr>
+        </div>
+        </div>
+      <div class="container">
+        <div id="test1" class="col s12">
+          <h3 class="title">Sam Tagert</h3>
+          <h6>Los Angeles, CA</h6>
+          <h6>(707) 430-7168</h6>
+          <h6>samtagert@gmail.com</h6>
+          <h6><a href="github.com/samtagert">GitHub</a></h6>
+          <h6><a href="linkedin.com/in/samtagert">LinkedIn</a></h6>
+          <p class="not-centered">I’m a Web Developer working in JavaScript, React, Node, Express, MongoDB, Mongoose, and Ruby on Rails. Previously, I worked in management for two years at Chipotle Mexican Grill. Being a manager built my leadership skills immensely alongside teaching me a great deal of responsibility. I also became a much stronger mentor on the work front and personal front. Currently, I’m working on building a full-stack React application similar to Netflix using Javascript, Node, Express, MongoDB, Mongoose, HTML5, and CSS3.</p>
+          <table class="centered">
+            <thead>
+              <tr>
+                <th>Technical Skills</th>
+                <th>Technical Skills</th>
+                <th>Technical Skills</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td>JavaScript</td>
+                  <td>React</td>
+                  <td>Node</td>
+                </tr>
+                <tr>
+                  <td>Express</td>
+                  <td>MongoDB</td>
+                  <td>Mongoose</td>
+                </tr>
+                <tr>
+                  <td>Ruby on Rails</td>
+                  <td>HTML5</td>
+                  <td>CSS3</td>
+                </tr>
+              </tbody>
+            </table>
+            <h6 class="not-centered bold">Projects</h6>
+            <h6 class="not-centered">Game Discovery</h6>
+            <p class="not-centered">My fourth project was built using Javascript, React, Node, Express, MongoDB, Mongoose, and the IGDB API. It is a game search engine designed for lost gamers looking to discover their next game to play. This project was my first full-stack React app and took place during my twelfth week of WDI and was done in four days.</p>
+            <h6 class="not-centered">Don't Think, Just Eat</h6>
+            <p class="not-centered">My third project was built using Javascript, Node, Express, MongoDB, Mongoose, and the Yelp API. You are able to put in a desired location and find a random restaurant within one mile. This project was my first group project and was done alongside three others. We took the mob programming approach with one driver and three navigators. My designated role was Scrum Master, maintaining an organized workflow throughout the project. It took place during my ninth week of WDI and was done in five days.</p>
+            <h6 class="not-centered">War</h6>
+            <p class="not-centered">My first project was using JavaScript, CSS, and HTML to create the card game, War, where two players simultaneously play a card, and the player with the higher value card takes both cards into their deck. This project took place during my third week of WDI and was done in four days.</p>
+            <h6 class="not-centered">GL HF</h6>
+            <p class="not-centered">The second project was built using Ruby on Rails to create a CRUD application revolving around reviews for video games. You are able to create a profile and submit reviews for specific games and rate them on a scale of 100. This project took place during my sixth week of WDI and was done in three days.</p>
+            <h6 class="not-centered bold">Job Experience</h6>
+            <h6 class="not-centered">Service Manager - Chipotle Mexican Grill</h6>
+            <p class="not-centered">Managed a team of 10-14 on a daily basis at one of the busiest restaurants company-wide in a very fast paced, team-oriented environment.</p>
+            <h6 class="not-centered bold">Education</h6>
+            <p class="not-centered">Graduated General Assembly’s Web Development Immersive program in December of 2017.</p>
+        </div>
       </div>
-      <div id="test1" class="col s12">
-        <h1 class="title">PROJECTS</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus aliquam sem ut pretium. Etiam pulvinar dolor non sodales dictum. Donec ut ullamcorper dui. Integer vel ligula quis nibh commodo consequat. Sed semper, felis sagittis iaculis dictum, nibh elit tempor dolor, in placerat ante ante gravida ipsum. Nam vel turpis pretium, eleifend lorem non, consequat neque. Pellentesque feugiat nisi nisi, eget volutpat nisi fermentum in. Nulla quis congue dolor. Phasellus ullamcorper augue in risus sagittis, at aliquam sem dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc venenatis dignissim ornare. Donec mattis viverra enim, et volutpat sem volutpat eu.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus aliquam sem ut pretium. Etiam pulvinar dolor non sodales dictum. Donec ut ullamcorper dui. Integer vel ligula quis nibh commodo consequat. Sed semper, felis sagittis iaculis dictum, nibh elit tempor dolor, in placerat ante ante gravida ipsum. Nam vel turpis pretium, eleifend lorem non, consequat neque. Pellentesque feugiat nisi nisi, eget volutpat nisi fermentum in. Nulla quis congue dolor. Phasellus ullamcorper augue in risus sagittis, at aliquam sem dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc venenatis dignissim ornare. Donec mattis viverra enim, et volutpat sem volutpat eu.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus aliquam sem ut pretium. Etiam pulvinar dolor non sodales dictum. Donec ut ullamcorper dui. Integer vel ligula quis nibh commodo consequat. Sed semper, felis sagittis iaculis dictum, nibh elit tempor dolor, in placerat ante ante gravida ipsum. Nam vel turpis pretium, eleifend lorem non, consequat neque. Pellentesque feugiat nisi nisi, eget volutpat nisi fermentum in. Nulla quis congue dolor. Phasellus ullamcorper augue in risus sagittis, at aliquam sem dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc venenatis dignissim ornare. Donec mattis viverra enim, et volutpat sem volutpat eu.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus aliquam sem ut pretium. Etiam pulvinar dolor non sodales dictum. Donec ut ullamcorper dui. Integer vel ligula quis nibh commodo consequat. Sed semper, felis sagittis iaculis dictum, nibh elit tempor dolor, in placerat ante ante gravida ipsum. Nam vel turpis pretium, eleifend lorem non, consequat neque. Pellentesque feugiat nisi nisi, eget volutpat nisi fermentum in. Nulla quis congue dolor. Phasellus ullamcorper augue in risus sagittis, at aliquam sem dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc venenatis dignissim ornare. Donec mattis viverra enim, et volutpat sem volutpat eu.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus aliquam sem ut pretium. Etiam pulvinar dolor non sodales dictum. Donec ut ullamcorper dui. Integer vel ligula quis nibh commodo consequat. Sed semper, felis sagittis iaculis dictum, nibh elit tempor dolor, in placerat ante ante gravida ipsum. Nam vel turpis pretium, eleifend lorem non, consequat neque. Pellentesque feugiat nisi nisi, eget volutpat nisi fermentum in. Nulla quis congue dolor. Phasellus ullamcorper augue in risus sagittis, at aliquam sem dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc venenatis dignissim ornare. Donec mattis viverra enim, et volutpat sem volutpat eu.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus aliquam sem ut pretium. Etiam pulvinar dolor non sodales dictum. Donec ut ullamcorper dui. Integer vel ligula quis nibh commodo consequat. Sed semper, felis sagittis iaculis dictum, nibh elit tempor dolor, in placerat ante ante gravida ipsum. Nam vel turpis pretium, eleifend lorem non, consequat neque. Pellentesque feugiat nisi nisi, eget volutpat nisi fermentum in. Nulla quis congue dolor. Phasellus ullamcorper augue in risus sagittis, at aliquam sem dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc venenatis dignissim ornare. Donec mattis viverra enim, et volutpat sem volutpat eu.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus aliquam sem ut pretium. Etiam pulvinar dolor non sodales dictum. Donec ut ullamcorper dui. Integer vel ligula quis nibh commodo consequat. Sed semper, felis sagittis iaculis dictum, nibh elit tempor dolor, in placerat ante ante gravida ipsum. Nam vel turpis pretium, eleifend lorem non, consequat neque. Pellentesque feugiat nisi nisi, eget volutpat nisi fermentum in. Nulla quis congue dolor. Phasellus ullamcorper augue in risus sagittis, at aliquam sem dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc venenatis dignissim ornare. Donec mattis viverra enim, et volutpat sem volutpat eu.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus aliquam sem ut pretium. Etiam pulvinar dolor non sodales dictum. Donec ut ullamcorper dui. Integer vel ligula quis nibh commodo consequat. Sed semper, felis sagittis iaculis dictum, nibh elit tempor dolor, in placerat ante ante gravida ipsum. Nam vel turpis pretium, eleifend lorem non, consequat neque. Pellentesque feugiat nisi nisi, eget volutpat nisi fermentum in. Nulla quis congue dolor. Phasellus ullamcorper augue in risus sagittis, at aliquam sem dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc venenatis dignissim ornare. Donec mattis viverra enim, et volutpat sem volutpat eu.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus aliquam sem ut pretium. Etiam pulvinar dolor non sodales dictum. Donec ut ullamcorper dui. Integer vel ligula quis nibh commodo consequat. Sed semper, felis sagittis iaculis dictum, nibh elit tempor dolor, in placerat ante ante gravida ipsum. Nam vel turpis pretium, eleifend lorem non, consequat neque. Pellentesque feugiat nisi nisi, eget volutpat nisi fermentum in. Nulla quis congue dolor. Phasellus ullamcorper augue in risus sagittis, at aliquam sem dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc venenatis dignissim ornare. Donec mattis viverra enim, et volutpat sem volutpat eu.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec maximus aliquam sem ut pretium. Etiam pulvinar dolor non sodales dictum. Donec ut ullamcorper dui. Integer vel ligula quis nibh commodo consequat. Sed semper, felis sagittis iaculis dictum, nibh elit tempor dolor, in placerat ante ante gravida ipsum. Nam vel turpis pretium, eleifend lorem non, consequat neque. Pellentesque feugiat nisi nisi, eget volutpat nisi fermentum in. Nulla quis congue dolor. Phasellus ullamcorper augue in risus sagittis, at aliquam sem dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc venenatis dignissim ornare. Donec mattis viverra enim, et volutpat sem volutpat eu.</p>
+      <div class="container">          
+        <div id="test2" class="col s12">
+          <img src="">
+          <h3 class="title">Sam Tagert</h3>
+          <h6>Los Angeles, CA</h6>
+          <h6>(707) 430-7168</h6>
+          <h6>samtagert@gmail.com</h6>
+          <h6><a href="github.com/samtagert">GitHub</a></h6>
+          <h6><a href="linkedin.com/in/samtagert">LinkedIn</a></h6>
+          <p>Hello! My name is Sam Tagert, and I'm a front end web developer working primarily in JavaScript and React.</p>
+        </div>
       </div>
-      <div id="test2" class="col s12">
-        <h1 class="title">HOME</h1>
-        <!-- picture -->
-        <!-- about me -->
-      </div>
-      <div id="test3" class="col s12">
-        <h1 class="title">GET IN TOUCH</h1>
-        <!-- phone -->
-        <!-- email form -->
-        <!-- linkedin and github? -->
-      </div>
-      <div id="test4" class="col s12">
-        <h1 class="title">EXTRAS</h1>
-        <!-- ??? -->
-      </div>
-      </main>
+    </main>
   </div>
 </body>
 </html>
-
-<!-- home page with background video coding on vs code -->
-<!-- external link to linkedin, github -->
-<!-- email form on page -->

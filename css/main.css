@@ -7,13 +7,16 @@
   text-align: center;
 }
 
+#test1 {
+  text-align: center;
+}
+
 .tabs {
   margin: 20px 0;
 }
 
 .navbar {
   position: fixed;
-  width: 100%;
 }
 
 .anchor {
@@ -25,4 +28,32 @@
 
 .indicator {
   display: none;
+}
+
+.not-centered {
+  text-align: left;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.project-pic {
+  height: 300px;
+  width: 550px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  margin: 40px;
+}
+
+.project-card {
+  display: flex;
+}
+
+.project-content {
+  flex-direction: row;
+}
+
+.project-title {
+  margin-top: 40px;
 }
