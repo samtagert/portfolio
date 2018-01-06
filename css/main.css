@@ -2,12 +2,12 @@
   font-size: 22px !important;
 }
 
-.title {
+.title, .profile-pic {
   margin-top: 12%;
   text-align: center;
 }
 
-#test1 {
+#test1, #test2 {
   text-align: center;
 }
 
@@ -56,4 +56,15 @@
 
 .project-title {
   margin-top: 40px;
+}
+
+.profile-pic {
+  height: 300px;
+  width: 300px;
+  border: 1px solid rgba(0, 0, 0, .3);
+  border-radius: 50%;
+}
+
+.profile-summary {
+  font-size: 18px;
 }
