@@ -1,70 +1,119 @@
-.name {
-  font-size: 22px !important;
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Helvetica';
+  font-weight: 200;
 }
 
-.title, .profile-pic {
-  margin-top: 12%;
-  text-align: center;
+header {
+  background-color: #222;
+  max-height: 700px;
+  height: 75%;
+  color: white;
+  margin-bottom: 4%;
 }
 
-#test1, #test2 {
-  text-align: center;
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-.tabs {
-  margin: 20px 0;
+.header-container, .main-container, .footer-container, .main-title, .footer-title {
+  width: 80%;
+  margin: 0 auto;
 }
 
-.navbar {
-  position: fixed;
+.main-container, .footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.anchor {
-  color: #ccc !important;
-}
-.anchor:hover, .tab:hover, .active {
-  color: #424242 !important;
-}
-
-.indicator {
-  display: none;
+.header-name {
+  padding: 3% 0;
+  font-size: 20px;
+  font-weight: 400;
 }
 
-.not-centered {
-  text-align: left;
+.header-summary {
+  font-size: 32px;
+  font-weight: bold;
+  width: 50%;
+  margin: 8% 0 3%;
 }
 
-.bold {
+.header-lure {
+  width: 55%;
+  margin: 0 0 5%;
+}
+
+.header-button {
+  border: 1px solid white;
+  padding: 1%;
+  transition: 300ms;
+}
+
+.header-button:hover {
+  background-color: white;
+  color: black;
+  transition: 300ms;
+}
+
+.work-card {
+  width: 48%;
+  min-width: 500px;
+  max-width: 700px;
+  margin: 40px 0 60px;
+}
+
+.work-image {
+  height: 64%;
+  width: 100%;
+}
+
+.work-summary {
+  margin-bottom: 4%;
+}
+
+.work-button {
+  border: 1px solid black;
+  padding: 1%;
+  transition: 300ms;
+}
+
+.work-button:hover {
+  background-color: black;
+  color: white;
+  transition: 300ms;
+}
+
+.work-technologies {
+  color: gray;
+}
+
+.work-title {
   font-weight: bold;
 }
 
-.project-pic {
-  height: 300px;
-  width: 550px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 2px;
-  margin: 40px;
+.main-title, .footer-title {
+  font-size: 42px;
+  font-weight: 400;
 }
 
-.project-card {
-  display: flex;
+.footer-summary {
+  margin: 20px 0 0;
+  width: 50%;
 }
 
-.project-content {
-  flex-direction: row;
-}
-
-.project-title {
-  margin-top: 40px;
-}
-
-.profile-pic {
-  height: 300px;
-  width: 300px;
-  border: 1px solid rgba(0, 0, 0, .3);
+.footer-image {
+  width: 400px;
+  height: 100%;
+  margin: 0 auto;
   border-radius: 50%;
+  border: 1px solid black;
 }
 
-.profile-summary {
-  font-size: 18px;
+.footer-buttons {
+  margin-top: 7%;
 }

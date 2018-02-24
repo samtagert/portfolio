@@ -4,189 +4,108 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>  
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link rel="stylesheet" href="css/main.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>  
   <script src="js/app.js" defer></script> 
   <link rel="icon" href="https://orig00.deviantart.net/bfb1/f/2011/225/0/f/metroid_logo_by_dosiguales-d46fo8p.png"> 
   <title>Sam Tagert</title>
 </head>
 <body>
-  <div class="row">
-    <div class="col s12 z-depth-1 navbar white">
-      <ul class="tabs">
-        <li class="tab col s1 offset-l4"><a class="anchor" href="#test0">Work</a></li>
-        <li class="tab col s2"><a class="anchor name active" href="#test2">Sam Tagert</a></li>
-        <li class="tab col s1"><a class="anchor" href="#test1">Resume</a></li>
-        <div class="indicator grey darken-3"></div>
-      </ul>
+  <header>
+    <div class="header-container">
+      <div class="header-name">Sam Tagert</div>
+      <div class="header-summary">I'm a Full Stack Developer currently working at Eaze Co.</div>
+      <div class="header-lure">If you're looking for a self-motivated, blah blah developer who can comfortably work Front End and Full Stack, don't be afraid to say hi!</div>
+      <a class="header-button" href="https://www.linkedin.com/in/samtagert/">Get in touch</a>
     </div>
-    <main>
-      <div class="container">              
-      <div id="test0" class="col s12">
-        <h3 class="title">My Projects</h3>
-
-        <div class="col s12 project-card">
-          <div class="project-content">
-            <img class="project-pic z-depth-3" src="https://i.imgur.com/fZSwtJn.png">
-          </div>
-          <div class="project-content">
-            <h4 class="project-title">Samflix</h4>
-            <p class="project-summary">
-              My fifth project was built using JavaScript, React, HTML5, CSS3, Node.js, Express, MongoDB, Mongoose, and the TMDb API. Samflix is my take on a Netflix inspired movie database. I wanted to build an application that offered good React practice alongside experimenting with new CSS3 tricks and Bootstrap React. You can log in using email: test@test.com and password: test.
-            </p>
-            <a href="https://samflix.herokuapp.com/">Deployed App</a>&nbsp;|&nbsp;<a href="https://github.com/samtagert/samflix">GitHub Repo</a>
-          </div>
+  </header>
+  <main>
+    <div class="main-title">Work</div>
+    <div class="main-container">
+      <div class="work-card">
+        <img class="work-image" src="https://i.imgur.com/fZSwtJn.png" alt="Work Image">
+        <div class="work-technologies">
+          <p>JavaScript | HTML5 | CSS3 | React.js | Node.js | MongoDB | TMDb API</p>
         </div>
-        <hr>
-        <div class="col s12 project-card">
-          <div class="project-content">
-            <img class="project-pic z-depth-3" src="https://i.imgur.com/0tnuY3T.png">
-          </div>
-          <div class="project-content">
-            <h4 class="project-title">Game Discovery</h4>
-            <p class="project-summary">My fourth project was built using Javascript, React, Node, Express, MongoDB, Mongoose, and the IGDB API. It is a game search engine designed for lost gamers looking to discover their next game to play. This project was my first full-stack React app and took place during my twelfth week of WDI and was done in four days.</p>
-            <a href="https://game-discovery-app.herokuapp.com/">Deployed App</a>&nbsp;|&nbsp;<a href="https://github.com/samtagert/game-discovery">GitHub Repo</a>
-          </div>
+        <div class="work-summary">
+          <p><span class="work-title">Samflix</span> is my take on a Netflix inspired movie database. I wanted to build an application that offered good practice reusing components and code in general. I also strayed away from CSS libraries and stuck mostly to custom CSS. You can log in using email: test@test.com and password: test.</p>
         </div>
-        <hr>
-        <div class="col s12 project-card">
-          <div class="project-content">
-            <img class="project-pic z-depth-3" src="https://i.imgur.com/z18pqTH.jpg">
-          </div>
-          <div class="project-content">
-            <h4 class="project-title">Don't Think, Just Eat</h4>              
-            <p class="project-summary">My third project was built using Javascript, Node, Express, MongoDB, Mongoose, and the Yelp API. You are able to put in a desired location and find a random restaurant within one mile. This project was a group project and was done alongside three others. We took the mob programming approach with one driver and three navigators. My designated role was Scrum Master, maintaining an organized workflow throughout the project.</p>
-            <a href="https://dtje.herokuapp.com/">Deployed App</a>&nbsp;|&nbsp;<a href="https://github.com/bdacoscos/dtje">GitHub Repo</a>
-          </div>
-        </div>
-        <hr>
-        <div class="col s12 project-card">
-          <div class="project-content">
-            <img class="project-pic z-depth-3" src="https://i.imgur.com/NzAldKp.png">
-          </div>
-          <div class="project-content">
-            <h4 class="project-title">WAR</h4>              
-            <p class="project-summary">My first project was using JavaScript, CSS, and HTML to create the card game, War, where two players simultaneously play a card, and the player with the higher value card takes both cards into their deck. This project took place during my third week of WDI and was done in four days.</p>
-            <a href="https://samtagert.github.io/War/">Deployed App</a>&nbsp;|&nbsp;<a href="https://github.com/samtagert/War">GitHub Repo</a>
-          </div>
-        </div>
-        <hr>
-        <div class="col s12 project-card">
-          <div class="project-content">
-            <img class="project-pic z-depth-3" src="https://i.imgur.com/OSIlCVT.png">
-          </div>
-          <div class="project-content">
-            <h4 class="project-title">GL HF</h4>              
-            <p class="project-summary">The second project was built using Ruby on Rails to create a CRUD application revolving around reviews for video games. You are able to create a profile and submit reviews for specific games and rate them on a scale of 100. This project took place during my sixth week of WDI and was done in three days.</p>
-            <a href="https://glhf.herokuapp.com/">Deployed App</a>&nbsp;|&nbsp;<a href="https://github.com/samtagert/glhf">GitHub Repo</a>
-          </div>
-        </div>
-        <hr>
-        </div>
-        </div>
-      <div class="container">
-        <div id="test1" class="col s12">
-          <h3 class="title">Sam Tagert</h3>
-          <h6>Los Angeles, CA</h6>
-          <h6>(707) 430-7168</h6>
-          <h6>samtagert@gmail.com</h6>
-          <h6><a href="https://github.com/samtagert">GitHub</a></h6>
-          <h6><a href="https://www.linkedin.com/in/samtagert/">LinkedIn</a></h6>
-          <p class="not-centered">I’m a Web Developer working in JavaScript, React, Node, Express, MongoDB, Mongoose, and Ruby on Rails. Previously, I worked in management for two years at Chipotle Mexican Grill. Being a manager strengthened my organizational capacity and my ability to adapt to an ever changing environment. I also became a much stronger mentor on the work front and personal front. Currently, I’m working on some extra features for my latest project, <a href="https://samflix.herokuapp.com/">Samflix.</a>
-          </p>
-          <table class="centered">
-            <thead>
-              <tr>
-                <th>Technical Skills</th>
-                <th>Technical Skills</th>
-                <th>Technical Skills</th>
-              </tr>
-            </thead>
-            <tbody>
-                <tr>
-                  <td>JavaScript</td>
-                  <td>React</td>
-                  <td>Node</td>
-                </tr>
-                <tr>
-                  <td>Express</td>
-                  <td>MongoDB</td>
-                  <td>Mongoose</td>
-                </tr>
-                <tr>
-                  <td>Ruby on Rails</td>
-                  <td>HTML5</td>
-                  <td>CSS3</td>
-                </tr>
-              </tbody>
-            </table>
-            <h6 class="not-centered bold">Projects</h6>
-            <p class="not-centered"><span class="bold">Samflix</span> is a Full Stack movie database built using React, JavaScript, Node, Express, MongoDB, Mongoose, HTML5, CSS, and the TMDb API.</p>
-            <p class="not-centered"><span class="bold">Game Discovery</span> is a Full Stack video game search engine built using React, JavaScript, Node, Express, MongoDB, Mongoose, HTML5, CSS, and the IGDB API.</p>
-            <p class="not-centered"><span class="bold">Don’t Think, Just Eat</span> finds a random restaurant for you to eat at within a mile of your desired location. It was a Full Stack group project following SCRUM and Agile methodologies and built using JavaScript, Node, Express, MongoDB, Mongoose, HTML5, CSS, and the Yelp API. My role was SCRUM master for our group.</p>
-            <p class="not-centered"><span class="bold">War</span> is a Front End Web app of the card game, War, built using JavaScript, HTML5, and CSS.</p>
-            <p class="not-centered"><span class="bold">GLHF</span> is a Full Stack Web application for submitting your own reviews on video games built using Ruby on Rails, HTML5, and CSS.</p>
-            <h6 class="not-centered bold">Job Experience</h6>
-            <h6 class="not-centered">Service Manager - Chipotle Mexican Grill</h6>
-            <p class="not-centered">Managed a team of 10-14 on a daily basis at one of the busiest restaurants company-wide in a very fast paced, team-oriented environment.</p>
-            <h6 class="not-centered bold">Education</h6>
-            <p class="not-centered">Graduated General Assembly’s Web Development Immersive program in December of 2017.</p>
+        <div class="work-button-container">
+          <a class="work-button" href="https://samflix.herokuapp.com/">Try it out</a>
+          <a class="work-button" href="https://github.com/samtagert/samflix">See the code</a>
         </div>
       </div>
-      <div class="container">          
-        <div id="test2" class="col s12">
-          <h3 class="title">Sam Tagert</h3>
-          <div class="centered">
-            <h5>Los Angeles, CA</h5>
-            <h5>(707) 430-7168</h5>
-            <h5>samtagert@gmail.com</h5>
-            <h6><a href="https://github.com/samtagert">GitHub</a></h6>
-            <h6><a href="https://www.linkedin.com/in/samtagert/">LinkedIn</a></h6>
-            <p class="profile-summary">Hello! My name is Sam Tagert, and I’m a Front End Web Developer working in JavaScript, React, Node, MongoDB, HTML5, CSS, Ruby on Rails. Previously, I worked in management for two years at Chipotle Mexican Grill. Being a manager strengthened my organizational capacity and my ability to adapt to an ever changing environment. I also became a much stronger mentor on the work front and personal front. Currently, I’m working on some extra features for my latest project, <a href="https://samflix.herokuapp.com/">Samflix.</a></p>
-            <h5>Full list of technical skills below.</h5>
-          </div>
-          <table class="centered">
-            <thead>
-              <tr>
-                <th>Technical Skills</th>
-                <th>Technical Skills</th>
-                <th>Technical Skills</th>
-              </tr>
-            </thead>
-            <tbody>
-                <tr>
-                  <td>JavaScript</td>
-                  <td>React</td>
-                  <td>Node</td>
-                </tr>
-                <tr>
-                  <td>Express</td>
-                  <td>MongoDB</td>
-                  <td>Mongoose</td>
-                </tr>
-                <tr>
-                  <td>Ruby on Rails</td>
-                  <td>HTML5</td>
-                  <td>CSS3</td>
-                </tr>
-                <tr>
-                  <td>Agile</td>
-                  <td>SCRUM</td>
-                  <td>Git</td>
-                </tr>
-                <tr>
-                  <td>SASS</td>
-                  <td>SQL</td>
-                  <td>REST</td>
-                </tr>
-              </tbody>
-            </table>
+      <div class="work-card">
+        <img class="work-image" src="https://i.imgur.com/z18pqTH.jpg" alt="Work Image">
+        <div class="work-technologies">
+          <p>JavaScript | HTML5 | CSS3 | Node.js | MongoDB | Yelp API</p>
+        </div>
+        <div class="work-summary">
+          <p><span class="work-title">Don't Think, Just Eat</span> is a group project I did alongside three others that lets you put in a desired location and find a random restaurant within one mile. We took the mob programming approach. My role was Scrum Master, maintaining an organized workflow throughout the project.</p>
+        </div>
+        <div class="work-button-container">
+          <a class="work-button" href="https://dtje.herokuapp.com/">Try it out</a>
+          <a class="work-button" href="https://github.com/bdacoscos/dtje">See the code</a>
         </div>
       </div>
-    </main>
-  </div>
+      <div class="work-card">
+        <img class="work-image" src="https://i.imgur.com/OSIlCVT.png" alt="Work Image">
+        <div class="work-technologies">
+          <p>Ruby | Rails | CSS3 | PostgreSQL</p>
+        </div>
+        <div class="work-summary">
+          <p><span class="work-title">GL HF</span> is my first project involving MVC and working with a backend. It's a basic CRUD application revolving around reviews for video games. You are able to create a profile and submit reviews for specific games and rate them on a scale of 100.</p>
+        </div>
+        <div class="work-button-container">
+          <a class="work-button" href="https://glhf.herokuapp.com/">Try it out</a>
+          <a class="work-button" href="https://github.com/samtagert/glhf">See the code</a>
+        </div>
+      </div>
+      <div class="work-card">
+        <img class="work-image" src="https://i.imgur.com/0tnuY3T.png" alt="Work Image">
+        <div class="work-technologies">
+          <p>JavaScript | HTML5 | CSS3 | React.js | Node.js | MongoDB | IGDb API</p>
+        </div>
+        <div class="work-summary">
+          <p><span class="work-title">Game Discovery</span> is a game search engine designed for lost gamers looking to discover their next game to play. The API had visual limitations so I used this project to focus less on styling and more on interacting with the backend through complex forms and fetch requests.</p>
+        </div>
+        <div class="work-button-container">
+          <a class="work-button" href="https://game-discovery-app.herokuapp.com/">Try it out</a>
+          <a class="work-button" href="https://github.com/samtagert/game-discovery">See the code</a>
+        </div>
+      </div>
+      <div class="work-card">
+        <img class="work-image" src="https://i.imgur.com/NzAldKp.png" alt="Work Image">
+        <div class="work-technologies">
+          <p>JavaScript | HTML5 | CSS3</p>
+        </div>
+        <div class="work-summary">
+          <p><span class="work-title">War</span> is my very first project where I made the card game in pure JavaScript. Two players simultaneously play a card, and the player with the higher value card takes both cards into their deck. Equal values trigger war. A player loses when he or she runs out of cards.</p>
+        </div>
+        <div class="work-button-container">
+          <a class="work-button" href="https://samtagert.github.io/War/">Try it out</a>
+          <a class="work-button" href="https://github.com/samtagert/War">See the code</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-title">About</div>
+    <div class="footer-container">
+      <div class="footer-summary">
+        <p>I’m a Web Developer working in JavaScript, HTML5, CSS3, React.js, Node.js, and MongoDB.</p>
+        <p>Previously, I worked in management for two years at Chipotle Mexican Grill. Being a manager strengthened my organizational capacity and my ability to adapt to an ever changing environment.</p>
+        <p>Currently, I’m working at Eaze Co, a small start-up company that includes 3 developers and 2 UX designers, building a responsive, mobile first vegan food app using JavaScript, React.js, Node.js, MongoDB, HTML5, and CSS3.</p>
+        <p>Below is a full list of my technologies.</p>
+        <p>JavaScript | HTML5 | CSS3 | React.js | Node.js | MongoDB |	PostgreSQL | Mongoose | Express | Webpack | MySQL | NoSQL | Ruby on Rails | Git | REST | jQuery | JSON |	AJAX | Agile | SASS | LESS | Bootstrap | Materialize</p>
+        <p>I am currently learning Redux.</p>
+        <div class="footer-buttons">
+          <a class="work-button" href="https://www.linkedin.com/in/samtagert/">My LinkedIn</a>
+          <a class="work-button" href="https://github.com/samtagert">My GitHub</a>
+          <a class="work-button" href="">My Resume</a>
+        </div>
+      </div>
+      <img class="footer-image" src="https://i.imgur.com/ITVLQBa.jpg" alt="Footer Image">
+    </div>
+  </footer>
 </body>
 </html>
