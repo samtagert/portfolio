@@ -7,11 +7,18 @@ html, body {
 }
 
 header {
-  background-color: #222;
+  background-color: rgba(0, 0, 0, .4);
   max-height: 700px;
   height: 75%;
   color: white;
-  margin-bottom: 4%;
+}
+
+main, footer {
+  background-color: white;
+}
+
+main {
+  padding-top: 4%;
 }
 
 a {
@@ -28,6 +35,13 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.header-background {
+  float: left;
+  position: absolute;
+  z-index: -1;
+  background-color: #222;
 }
 
 .header-name {
